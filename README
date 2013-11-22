@@ -1,0 +1,22 @@
+Reverse Polish Notation Calculator
+
+Calculator is implemented on a stack, which I implemented
+with an Array.
+
+Usage:
+	If you put an integer, the integer is pushed onto stack.
+	If you enter an operator, two integers are popped, the operation is performed on those two integers,
+		and then the result is pushed back onto the stack.
+	If you enter ?, the current state of the stack is printed.
+	If you enter ., the top element is popped, and displayed (useful if you made a mistake)
+	If you enter !, the program exits. If stack is not empty, the stack is printed one last time.
+Example:
+	> 1
+	> 10
+	> *
+	> -4
+	> +
+	> ?
+	[6]
+
+You can only call an operator if there are two items in the stack.
